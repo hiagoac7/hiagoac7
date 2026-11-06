@@ -1,19 +1,49 @@
-# Oi, eu sou o Hiago Cavalheiro
+# Hiago Cavalheiro
 
-Trabalho com infraestrutura e suporte de TI. Gosto de pegar uma tarefa repetitiva do dia a dia e criar uma ferramenta que deixe o trabalho mais simples. Aqui estão alguns projetos que fiz para organizar chamados, inventariar equipamentos e acompanhar processos seletivos.
+**Infraestrutura de TI · Suporte · Desenvolvimento e automação**
 
-## Projetos e competências
+Trabalho com redes, servidores e suporte. Quando uma tarefa começa a tomar tempo todo dia, gosto de entender o processo e criar uma ferramenta para simplificá-lo.
 
-### [Sistema de Recrutamento e Seleção](https://github.com/hiagoac7/rh-ats)
-Sistema web para acompanhar vagas, candidatos e pareceres. Usei **Python, FastAPI, Pydantic, React, JavaScript/JSX, HTML, CSS e Tailwind CSS**. A API usa **JWT e permissões por perfil (RBAC)**, com atualizações via **SSE**. A camada de dados usa **SQL, SQLAlchemy, Alembic, SQLite e PostgreSQL**. O projeto também inclui **Docker Compose, Chart.js e OpenPyXL**.
+[Ver projetos](#projetos-em-destaque) · [Explorar competências](#competências-técnicas) · [LinkedIn](https://www.linkedin.com/in/hiago-aita-cavalheiro/)
 
-### [Central de Suporte de TI](https://github.com/hiagoac7/Portal-Suporte)
-Portal para registrar chamados e compras, acompanhar filas e gerar relatórios. Usei **Python, Streamlit, Pandas, SQLite, HTML, CSS e JavaScript**, com **Plotly e Chart.js** nos painéis e **OpenPyXL e FPDF** nas exportações. O projeto inclui rotinas de backup e integração opcional com **WhatsApp via CallMeBot**.
+---
 
-### [Inventário de Ativos de TI](https://github.com/hiagoac7/inventario-ti)
-Coletor Windows que identifica o hardware e registra os equipamentos em um banco local. Usei **Python, Tkinter, Pandas, PowerShell/CIM, SQL e SQLite**, com **CSV** para a lista de usuários e **Batch e PyInstaller** para empacotar o executável.
+## Projetos em destaque
 
-### [Coletor de Dispositivos Android](https://github.com/hiagoac7/coletor-dispositivos-android)
-Aplicativo de inventário móvel em **Python e Kivy**, com **PyJNIus** para consultar as APIs do Android e **Buildozer e Android SDK/NDK** para configurar o APK. O cliente envia dados por **HTTP POST** a um Web App do **Google Apps Script** para integração com **Google Sheets**.
+### 01 · [Central de Suporte de TI](https://github.com/hiagoac7/Portal-Suporte)
+Chamados e compras em um só lugar, com filas, painéis e exportação para Excel e PDF.  
+**Python · Streamlit · SQLite · Pandas · Plotly**
 
-[LinkedIn](https://www.linkedin.com/in/hiago-aita-cavalheiro/)
+### 02 · [Inventário de Ativos de TI](https://github.com/hiagoac7/inventario-ti)
+Coleta de hardware no Windows e registro local dos equipamentos por número de série.  
+**Python · Tkinter · PowerShell/CIM · SQLite · PyInstaller**
+
+### 03 · [Coletor de Dispositivos Android](https://github.com/hiagoac7/coletor-dispositivos-android)
+Aplicativo para inventariar dispositivos móveis, com cliente de integração ao Google Sheets.  
+**Python · Kivy · PyJNIus · Buildozer · Google Apps Script**
+
+### 04 · [Sistema de Recrutamento e Seleção](https://github.com/hiagoac7/rh-ats)
+Acompanhamento de vagas, candidatos e pareceres com permissões por perfil e atualização em tempo real.  
+**FastAPI · React · PostgreSQL · SQLAlchemy · Docker Compose**
+
+---
+
+## Competências técnicas
+
+**Linguagens e scripts**  
+Python · JavaScript/JSX · SQL · PowerShell · Shell · Batch · HTML e CSS
+
+**Infraestrutura e operação**  
+Windows Server · Ubuntu Linux · VMware vSphere · Google Workspace · Google Cloud · Backup e restauração · Service Desk · Gestão de incidentes · Inventário de ativos (ITAM)
+
+**Redes e segurança**  
+MikroTik RouterOS · Ubiquiti UniFi · pfSense · TCP/IP · DNS · NAT · VLANs · VPN · Wi-Fi corporativo · Active Directory · IAM · GPO · MFA
+
+**Monitoramento e serviços**  
+Zabbix · Grafana · VoIP/PABX · SIP · URA · CFTV IP · Hikvision · Hik-Connect · HikCentral · DVR/NVR
+
+**Desenvolvimento e dados**  
+FastAPI · Pydantic · React · Tailwind CSS · Streamlit · Tkinter · Kivy · PyJNIus · PostgreSQL · SQLite · SQLAlchemy · Alembic · Pandas · Plotly · Chart.js · OpenPyXL · FPDF
+
+**Integrações e entrega**  
+APIs REST · JSON · Webhooks · JWT · RBAC · SSE · Testes E2E · Google Sheets e Apps Script · Ploomes · Sankhya · RD Station · Umbler Talk · WhatsApp/CallMeBot · Git/GitHub · Docker Compose · PyInstaller · Buildozer
